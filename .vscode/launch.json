@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:MyExecutable}",
+            "name": "Debug MyExecutable",
+            "target": "MyExecutable",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug MyExecutable"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:MyExecutable}",
+            "name": "Release MyExecutable",
+            "target": "MyExecutable",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release MyExecutable"
+        }
+    ]
+}
